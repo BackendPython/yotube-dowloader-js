@@ -34,6 +34,7 @@ select{
 }
 input{
     font-size: 20px;
+    margin-top: 20px;
 }
 button{
     font-size: 25px;
