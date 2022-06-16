@@ -34,5 +34,6 @@ input{
 button{
     font-size: 25px;
     width: 250px;
+    margin-top: 20px;
     background-color: royalblue;
 }
