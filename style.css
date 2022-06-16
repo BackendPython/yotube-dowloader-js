@@ -51,4 +51,10 @@ button{
     }
 }
 
+@media screen and (max-width: 310px){
+    .full{
+        width: 250px;
+    }
+}
+
 
