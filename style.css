@@ -9,7 +9,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: gray;
+    background-color: #081954;
 }
 .full{
     display: flex;
