@@ -3,12 +3,13 @@ let select = document.querySelector('.format')
 let input = document.querySelector('.link')
 let btn = document.querySelector('.btn')
 
-btn.addEventListener('click',function(){
+btn.addEventListener('click',function get(){
     if(input.value!=''){
         var link = input.value
-        var format = select.children['display:hidden'].value
+        var as = document.forms[0].ddlViewBy.value;
+        var format = select.options[select.selectedIndex].value;
         btn.style.display = 'none'
-        download(link, format) 
+        download(link, format)
     }
 })
 function download(link, format){
