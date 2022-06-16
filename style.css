@@ -25,6 +25,9 @@ body{
     justify-content: center;
     border: 2px solid black;
 }
+h1{
+    margin-top: 20px; 
+}
 select{
     width: 250px;
     margin-top: 20px;
