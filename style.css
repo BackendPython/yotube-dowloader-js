@@ -27,6 +27,7 @@ body{
 }
 select{
     width: 250px;
+    margin-top: 20px;
 }
 input{
     font-size: 20px;
