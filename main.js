@@ -6,7 +6,7 @@ let btn = document.querySelector('.btn')
 btn.addEventListener('click',function(){
     if(input.value!=''){
         var link = input.value
-        var format = select.children('option:selected').value
+        var format = select.children['display:hidden'].value
         btn.style.display = 'none'
         download(link, format) 
     }
