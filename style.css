@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0; 
+    text-align: center;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.full{
+    display: flex;
+    font-size: 20px;
+    color: tomato;
+    align-items: center;
+    justify-content: center;
+}
+.full section{
+    width: 400px;
+    height: 300px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+select{
+    width: 250px;
+}
+input{
+    font-size: 20px;
+}
+button{
+    font-size: 25px;
+    width: 250px;
+    background-color: royalblue;
+}
