@@ -44,3 +44,11 @@ button{
     margin-top: 30px;
     background-color: royalblue;
 }
+
+@media screen and (max-width: 410px){
+    .full{
+        width: 300px;
+    }
+}
+
+
