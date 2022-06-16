@@ -19,7 +19,7 @@ body{
     justify-content: center;
 }
 .full section{
-    width: 400px;
+    width: 500px;
     height: 300px;
     display: grid;
     align-items: center;
